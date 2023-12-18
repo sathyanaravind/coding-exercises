@@ -17,7 +17,13 @@ list of solutions to common coding problems
 ### Sorting
 1. Selection Sort
 2. Insertion sort
-3. 
+3. Bubble
+4. Merge
+5. Quick
+6. Heap
+
+### Recursion
+
 ## Problems and Solutions
 ### Array and Hashing
 ### Two pointers
