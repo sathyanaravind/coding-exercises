@@ -39,8 +39,10 @@ list of solutions to common coding problems
 ## Data Structures
 ### Array 
 ### Linked list
-What is a linked list?
-uses:  
+- linear data structure with connected nodes
+- each node contains data and pointer to next node
+head->|data|next|->|data|next|->|data|next|->NULL
+-uses: in web browsers
 struct/class :   
 
 - class
