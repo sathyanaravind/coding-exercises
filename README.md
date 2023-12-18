@@ -87,12 +87,12 @@ struct Node {
 
 ```
 
-memory spaces used:  
-difference between Node and Node* :
-arrary -> linked list  
-traversal in linked list  
-lenght of a linked list  
-search an element in linked list
+- memory spaces used:  
+- difference between Node and Node* :
+- arrary -> linked list  
+- traversal in linked list  
+- lenght of a linked list  
+- search an element in linked list
 
 ### Stack
 ### Queue
