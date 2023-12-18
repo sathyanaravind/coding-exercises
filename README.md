@@ -41,7 +41,51 @@ list of solutions to common coding problems
 ### Linked list
 What is a linked list?
 uses:  
-struct/class :
+struct/class :   
+
+- class
+```
+#include<bits/stdc++.h>
+using namespace std;
+class Node {
+    public:
+    int data;
+    Node *next;
+
+    public:
+    Node(int data1, Node *next1){
+        data = data1;
+        next = next1;
+    }
+};
+
+int main(){
+    vector<int> arr = {1,2,3,4};
+    Node *y = new Node(arr[0], nullptr);
+    cout << y << endl;
+    cout << y->data << endl;
+    cout << y->next<< endl;
+    return 0;
+}
+```
+- struct
+```
+#include<bits/stdc++.h>
+using namespace std;
+struct Node {
+    public:
+    int data;
+    Node *next;
+
+    public:
+    Node(int data1, Node *next1){
+        data = data1;
+        next = next1;
+    }
+};
+
+```
+
 memory spaces used:  
 difference between Node and Node* :
 arrary -> linked list  
@@ -65,11 +109,7 @@ Binary tree
 3. prefect: all leaf nodes are at same level
 4. balanced: height of tree at max log(N)
 5. degenerate: all nodes have one child  
-   1    
-  / \   
- 2   3  
-/ \     
-4 5     
+  
 binary tree in C++  
 ```
 struct Node{
