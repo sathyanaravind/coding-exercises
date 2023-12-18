@@ -2,7 +2,23 @@
 list of solutions to common coding problems
 
 
+## Data Structures
+### Array 
+### Linked list
+### Stack
+### Queue
+### Trees
+### Tries
+### Graphs
+### Hashing
 
+## Algorithms
+
+### Sorting
+1. Selection Sort
+2. Insertion sort
+3. 
+## Problems and Solutions
 ### Array and Hashing
 ### Two pointers
 ### Sliding window
@@ -13,7 +29,6 @@ list of solutions to common coding problems
 ### Tries
 ### Backtracking
 ###
-
 
 ### Notes
 
