@@ -39,6 +39,16 @@ list of solutions to common coding problems
 ## Data Structures
 ### Array 
 ### Linked list
+What is a linked list?
+uses:  
+struct/class :
+memory spaces used:  
+difference between Node and Node* :
+arrary -> linked list  
+traversal in linked list  
+lenght of a linked list  
+search an element in linked list
+
 ### Stack
 ### Queue
 ### Trees
