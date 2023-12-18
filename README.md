@@ -2,6 +2,39 @@
 list of solutions to common coding problems
 
 
+# Table of Contents
+- [Data Structures](#data-structures)
+  - [Array](#array)
+  - [Linked list](#linked-list)
+  - [Stack](#stack)
+  - [Queue](#queue)
+  - [Trees](#trees)
+  - [Tries](#tries)
+  - [Graphs](#graphs)
+  - [Hashing](#hashing)
+- [Algorithms](#algorithms)
+  - [Sorting](#sorting)
+    1. [Selection Sort](#selection-sort)
+    2. [Insertion Sort](#insertion-sort)
+    3. [Bubble](#bubble)
+    4. [Merge](#merge)
+    5. [Quick](#quick)
+    6. [Heap](#heap)
+  - [Recursion](#recursion)
+- [Problems and Solutions](#problems-and-solutions)
+  - [Array and Hashing](#array-and-hashing)
+  - [Two pointers](#two-pointers)
+  - [Sliding window](#sliding-window)
+  - [Stack](#stack-1)
+  - [Binary search](#binary-search)
+  - [Linked list](#linked-list-1)
+  - [Trees](#trees-1)
+  - [Tries](#tries-1)
+  - [Backtracking](#backtracking)
+
+# coding-exercises
+list of solutions to common coding problems
+
 ## Data Structures
 ### Array 
 ### Linked list
@@ -34,7 +67,6 @@ list of solutions to common coding problems
 ### Trees
 ### Tries
 ### Backtracking
-###
 
 ### Notes
 ## Data Structures
