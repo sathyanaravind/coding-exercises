@@ -66,7 +66,28 @@ Binary tree
 4. balanced: height of tree at max log(N)
 5. degenerate: all nodes have one child
 
+binary tree in C++  
+```
+struct Node{
+  int data;
+  struct Node *left;
+  struct Node *right;
 
+  Node (int val){
+    data = val;
+    left = right = null;
+  }
+}
+
+main(){
+  struct Node *root
+  new_Node(1)
+  root->left = Node(2)
+  root->right = Node(3)
+  root->left->left = Node(4)
+  root->left->right = Node(5)
+}
+```
 ### Tries
 ### Graphs
 ### Hashing
