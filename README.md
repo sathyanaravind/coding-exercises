@@ -3,6 +3,7 @@ list of solutions to common coding problems
 
 
 # Table of Contents
+- [Notes](#Notes)
 - [Data Structures](#data-structures)
   - [Array](#array)
   - [Linked list](#linked-list)
@@ -48,9 +49,9 @@ list of solutions to common coding problems
 ## Algorithms
 
 ### Sorting
-1. Selection Sort
-2. Insertion sort
-3. Bubble
+- ### Selection Sort
+- ### Insertion sort
+- ### Bubble
 4. Merge
 5. Quick
 6. Heap
