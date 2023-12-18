@@ -78,7 +78,7 @@ list of solutions to common coding problems
 #### Linked List
 ### Stack
 ### Queue
-####  Tree
+### Tree
 
 Tree
 - root
