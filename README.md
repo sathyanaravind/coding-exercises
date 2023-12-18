@@ -41,7 +41,7 @@ list of solutions to common coding problems
 ### Linked list
 - linear data structure with connected nodes
 - each node contains data and pointer to next node
-head->|data|next|->|data|next|->|data|next|->NULL
+head->|data|next|->|data|next|->|data|next|->NULL  
 -uses: in web browsers
 struct/class :   
 
