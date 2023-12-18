@@ -42,7 +42,7 @@ list of solutions to common coding problems
 ### Stack
 ### Queue
 ### Trees
-Tree
+Binary tree
 - root
 - children
 - ancestor
