@@ -65,7 +65,7 @@ Binary tree
 3. prefect: all leaf nodes are at same level
 4. balanced: height of tree at max log(N)
 5. degenerate: all nodes have one child  
- 1  
+   1  
   / \ 
  2   3
 / \   
