@@ -64,8 +64,12 @@ Binary tree
                 the last level has all nodes as left as possible
 3. prefect: all leaf nodes are at same level
 4. balanced: height of tree at max log(N)
-5. degenerate: all nodes have one child
-
+5. degenerate: all nodes have one child  
+ 1  
+  / \ 
+ 2   3
+/ \   
+4 5   
 binary tree in C++  
 ```
 struct Node{
