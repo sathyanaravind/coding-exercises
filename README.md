@@ -1,6 +1,8 @@
 # coding-exercises
 list of solutions to common coding problems
 
+
+
 ### Array and Hashing
 ### Two pointers
 ### Sliding window
@@ -17,7 +19,7 @@ list of solutions to common coding problems
 
 #### Linked List
 
-#### Binary Tree
+####  Tree
 
 Tree
 - root
