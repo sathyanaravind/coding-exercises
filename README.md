@@ -49,12 +49,12 @@ list of solutions to common coding problems
 ## Algorithms
 
 ### Sorting
-- ### Selection Sort
-- ### Insertion sort
-- ### Bubble
-4. Merge
-5. Quick
-6. Heap
+1. ### Selection Sort
+2. ### Insertion sort
+3. ### Bubble
+4. ### Merge
+5. ### Quick
+6. ### Heap
 
 ### Recursion
 
