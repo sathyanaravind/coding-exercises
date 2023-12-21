@@ -35,6 +35,8 @@ list of solutions to common coding problems
 
 ## Data Structures
 ### Array 
+- collection of items of same data type stored a contiguous memory locations
+- 
 ### Linked list
 - linear data structure with connected nodes
 - each node contains data and pointer to next node    
@@ -92,7 +94,11 @@ struct Node {
 - search an element in linked list
 
 ### Stack
+- Last In First Out(LIFO)
+- plates on top of each other
+- 
 ### Queue
+- First In First Out(FIFO)
 ### Trees
 Binary tree
 - root, children,ancestor, leaf nodes
@@ -147,6 +153,19 @@ main(){
 6. ### Heap
 
 ### Recursion
+- fuction calling itself until a specific condition
+- basic problems
+  1. print anything n times
+  2. print 1 to N
+  3. print from 1 to N
+  4. print N to 1
+  5. print 1 to N using *Backtracking*
+  6. print N to 1 using *Backtracking*
+- parameterised vs functional recursion
+  8. reverese an array
+  9. factorial
+- mutiple recursion calls
+  10. fibonacci
 
 ## Problems and Solutions
 ### Array and Hashing
