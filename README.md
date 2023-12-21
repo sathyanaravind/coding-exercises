@@ -33,9 +33,6 @@ list of solutions to common coding problems
   - [Tries](#tries-1)
   - [Backtracking](#backtracking)
 
-# coding-exercises
-list of solutions to common coding problems
-
 ## Data Structures
 ### Array 
 ### Linked list
@@ -89,7 +86,7 @@ struct Node {
 
 - memory spaces used:  
 - difference between Node and Node* :
-- arrary -> linked list  
+- convert arrary -> linked list   
 - traversal in linked list  
 - lenght of a linked list  
 - search an element in linked list
@@ -98,20 +95,22 @@ struct Node {
 ### Queue
 ### Trees
 Binary tree
-- root
-- children
-- ancestor
-- leaf nodes
-
-5 types of trees  
+- root, children,ancestor, leaf nodes
+- 5 types of trees  
 1. full bt: every node has either has 2 or 0 children
 2. complete bt: all levels completely filled except last level. 
                 the last level has all nodes as left as possible
 3. prefect: all leaf nodes are at same level
 4. balanced: height of tree at max log(N)
 5. degenerate: all nodes have one child  
-  
-binary tree in C++  
+- binary tree traversal
+- depth first 
+  - inorder : left-root-right
+  - preorder: root-left-right
+  - postorder:left-right-root
+- level order traversal: queue and an array of array
+
+- binary tree in C++  
 ```
 struct Node{
   int data;
@@ -157,6 +156,16 @@ main(){
 ### Binary search
 ### Linked list
 ### Trees
+1. inorder
+2. preorder
+3. postorder
+4. level order 
+5. height of binary tree
+recursive   
+height(root)   
+lh = height(root.left)   
+rh = height(root.righ)  
+return 1+ max(lh+rh)  
 ### Tries
 ### Backtracking
 
