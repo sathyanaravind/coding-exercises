@@ -197,7 +197,8 @@ main(){
     print(max)
   ```
 2. Second largest
-  1. brute: TC = nlogn + n
+  - 3 solutions
+  - brute: TC = nlogn + n
   ```
   sort array
     for i=n-2,i<=0,i--:
@@ -206,7 +207,7 @@ main(){
       break
     return secondl
   ```
-  2. better : TC(2N)
+  - better : TC(2N)
   ```
   largest = 0
   for i=0,i<n,i++
@@ -219,7 +220,18 @@ main(){
       break
   return secondl
   ```
-  3. Optimum: 
+  - Optimum: two variables largest and second largest
+  ```
+  largest = a[0]
+  slargest = -1
+  for i=0,i<n,i++
+    if a[i]>largest:
+      slargest = largest
+      largest = a[i]
+    else if a[i] < largest and a[i]> secondl:
+      slargest = a[i]
+  return slargest
+  ```
 
 ### Two pointers
 ### Sliding window
