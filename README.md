@@ -36,7 +36,8 @@ list of solutions to common coding problems
 ## Data Structures
 ### Array 
 - collection of items of same data type stored a contiguous memory locations
-- 
+- Problems
+
 ### Linked list
 - linear data structure with connected nodes
 - each node contains data and pointer to next node    
@@ -157,7 +158,10 @@ main(){
 - basic problems  
   1. print anything n times
 
-  2. print 1 to N
+  2. print 1 to N 
+    ```
+    ```
+
   3. print from 1 to N
   4. print N to 1
   5. print 1 to N using *Backtracking*
@@ -180,7 +184,43 @@ main(){
   ```
 
 ## Problems and Solutions
+- Strategy: Brute -> Better -> Optimal
 ### Array and Hashing
+1. Largest element
+  - brute: sort and give n-1. TC = nlogn
+  - optimal: largest varible, replace largest by linear search
+  ```
+  max = 0
+  for i=0,i<n,i++
+    if a[i]>largest:
+      max = a[i]
+    print(max)
+  ```
+2. Second largest
+  1. brute: TC = nlogn + n
+  ```
+  sort array
+    for i=n-2,i<=0,i--:
+      if a[i] != a[n-1]
+      secondl = arr[i]
+      break
+    return secondl
+  ```
+  2. better : TC(2N)
+  ```
+  largest = 0
+  for i=0,i<n,i++
+    if a[i]>largest:
+      largest = a[i]
+  secondl = -1
+  for i=0,i<n,i++:
+    if secondl < a[i] and secondl != largest
+      secondl = arr[i]
+      break
+  return secondl
+  ```
+  3. Optimum: 
+
 ### Two pointers
 ### Sliding window
 ### Stack
