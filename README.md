@@ -154,8 +154,9 @@ main(){
 
 ### Recursion
 - fuction calling itself until a specific condition
-- basic problems
+- basic problems  
   1. print anything n times
+
   2. print 1 to N
   3. print from 1 to N
   4. print N to 1
@@ -166,6 +167,17 @@ main(){
   9. factorial
 - mutiple recursion calls
   10. fibonacci
+  ```
+  f(n)
+  {
+    if (n<=1)
+      return n
+    last = f(n-1)
+    slast = f(n-2)
+    return last + slast 
+  }
+
+  ```
 
 ## Problems and Solutions
 ### Array and Hashing
