@@ -30,8 +30,13 @@ list of solutions to common coding problems
   - [Binary search](#binary-search)
   - [Linked list](#linked-list-1)
   - [Trees](#trees-1)
+    1.erwwer
+    2. sdfsdf
+    3. sdfsdf
+    
     - [preorder](#preorder)
     - [height](#height)
+    - [diameter](#diameter)
   - [Tries](#tries-1)
   - [Backtracking](#backtracking)
 
@@ -242,7 +247,7 @@ main(){
 ### Linked list
 ### Trees
 1. inorder
-2. preorder
+2. #### preorder
 3. postorder
 4. level order
 5. iterative preorder
@@ -254,9 +259,9 @@ while stack:
 ```
 6. iterative inorder
 7. iterative postorder
-8. height of binary tree
+8. #### height
 9. balanced binary tree
-10. diameter
+10. #### diameter
 11. identical trees
 12. 
 recursive   
