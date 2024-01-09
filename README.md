@@ -242,8 +242,21 @@ main(){
 1. inorder
 2. preorder
 3. postorder
-4. level order 
-5. height of binary tree
+4. level order
+5. iterative preorder
+
+```
+while stack:
+  stack.pop
+
+```
+6. iterative inorder
+7. iterative postorder
+8. height of binary tree
+9. balanced binary tree
+10. diameter
+11. identical trees
+12. 
 recursive   
 height(root)   
 lh = height(root.left)   
