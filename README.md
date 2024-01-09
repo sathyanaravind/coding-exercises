@@ -30,6 +30,8 @@ list of solutions to common coding problems
   - [Binary search](#binary-search)
   - [Linked list](#linked-list-1)
   - [Trees](#trees-1)
+    - [preorder](#preorder)
+    - [height](#height)
   - [Tries](#tries-1)
   - [Backtracking](#backtracking)
 
